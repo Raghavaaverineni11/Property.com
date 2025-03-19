@@ -6,6 +6,7 @@
 package real.estate.Repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
 import real.estate.Entity.Property;
 
@@ -13,6 +14,7 @@ import real.estate.Entity.Property;
  *
  * @author ragha
  */
+@Repository
 public interface PropertyRepository extends JpaRepository<Property, Long> {
          
 }
